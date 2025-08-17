@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* כיווניות ימין-לשמאל (RTL) עבור כל האתר */
+html {
+  direction: rtl;
+}
+
+body {
+  @apply bg-secondary text-white;
+  font-family: sans-serif;
+}
